@@ -1,1 +1,4 @@
-# CS410 GreenTeam
+# EarSync
+CS 410 Green Team
+
+AI-Powered Travel Translator
