@@ -34,6 +34,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -42,12 +43,14 @@ nav a {
     font-size: 18px;
     padding: 8px 16px;
     border-radius: 5px;
+    white-space: nowrap; 
 }
 
 nav a:hover {
     background: #8eff97;
     color: #000000;
 }
+
 
 /* Hero Section */
 .hero {
