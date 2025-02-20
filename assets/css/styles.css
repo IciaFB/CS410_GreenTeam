@@ -12,6 +12,8 @@ body {
     color: #e0e0e0;
     line-height: 1.6;
     text-align: center;
+    overflow-x: hidden;
+    padding: 0 15px;   
 }
 
 /* Header Styling */
@@ -51,6 +53,29 @@ nav a:hover {
     color: #000000;
 }
 
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
 
 /* Hero Section */
 .hero {
