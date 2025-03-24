@@ -240,3 +240,45 @@ ul {
     padding-left: 20px; 
 }
 
+.elevator-pitch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .elevator-pitch h2 {
+    font-size: 2.2rem;
+    color: #8eff97;
+    margin-bottom: 40px;
+  }
+  
+  .elevator-pitch p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    max-width: 750px;
+  }
+  
+  .line-2 {
+    font-style: italic;
+    font-size: 1.25rem;
+  }
+  
+  .final-line {
+    font-weight: bold;
+    color: #8eff97;
+    font-size: 1.3rem;
+  }
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
