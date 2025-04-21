@@ -227,6 +227,15 @@ footer {
     align-items: center;
     text-align: center;
 }
+footer a {
+    color: #8eff97;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #6fd97e; 
+}
+
 
 /* Left Alignment for Content */
 h3, p, h4, ul {
@@ -245,7 +254,7 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 80px 20px;
+    padding: 20px;
     max-width: 900px;
     margin: 0 auto;
   }
@@ -253,7 +262,7 @@ ul {
   .elevator-pitch h2 {
     font-size: 2.2rem;
     color: #8eff97;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
   }
   
   .elevator-pitch p {
